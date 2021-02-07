@@ -78,6 +78,7 @@ This system uses extracting a set of frames belonging to the video, sending them
 
 ### VGG- 
 is a specific convolutional network designed for classification and localization.Like many other popular networks like Google-Net, Alex Net etc.
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/ng2.png?raw=true)
 
 ---
 
@@ -156,7 +157,7 @@ And return the names and the labels.
   * we print the path and the name for the chosen video.
   * we load 20 frames of one video for example.
   * To plot the frames we convert the frames back into uint8 pixel format.
-
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/ng1.png?raw=true)
 
 # 4) Pre-Trained Model-VGG16:
 The following creates an instance of the pre-trained VGG16 model using the Keras API. This automatically downloads the required files, if you don't have them already.
@@ -234,6 +235,9 @@ Allows training of a system that has never trained with the same data set.
 
 * Function retrain_the_model-
 Allows training of a system that has been trained before with the same data set.
+
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/Ng.png?raw=true)
+
 
 ---
 
