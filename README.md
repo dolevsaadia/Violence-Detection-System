@@ -2,7 +2,7 @@
 # Detect Violence detection system.
 ----
 ## _____________ violence_______________________________  not-violence
-![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/nd3.PNG?raw=true)  ![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/nd44.PNG?raw=true)
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/nd3.PNG?raw=true)          ![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/nd44.PNG?raw=true)
 
 
 In this project we present two parts with different models which detect violence.
@@ -20,14 +20,14 @@ Of course the multi layer perceptron system gives significantly better results.
 ---
 
 ### About the first system: 
----
+
 In the first system We built a model work like logistic regression called precpecton. It is simple model with one layer. Which is calculation of sum of input vectors with the value multiplied by corresponding vector weight. The displayed output value will be the input of an activation function.
 After we build the model, we train him on dataset  and check validation to see the result.
 
 ---
 
 ### About the second system: 
----
+
 We wanted to improve the results, so we built a new model (multi layer percepton) which is more comlicated.
 This model made from several layers, to solve complex problems. The diagram below shows an MLP with three layers. Each input in the first layer on the left (the input layer), sends outputs to all the perceptrons in the second layer (the hidden layer), and all perceptrons in the second layer send outputs to the final layer on the right (the output layer).
 
@@ -35,22 +35,23 @@ This model made from several layers, to solve complex problems. The diagram belo
 
 
 #### The diffrence between the two models:
----
+
 one layer percpecton model (logistic regression) represents the most simple form of neural network, in which there is only one layer of input nodes that send weighted inputs to a subsequent layer of receiving nodes, or in some cases, one receiving node. This single-layer design was part of the foundation for systems which have now become much more complex. A multilayer perceptron (MLP) is a class of feedforward artificial neural network that contains one or more hidden layers (apart from one input and one output layer). While a single layer perceptron can only learn linear functions, a multi layer perceptron can also learn non – linear functions. 
 
 ---
 
 ### The first part has three files. 
----
+
 Now we will explain about the files and what its purpose to do:
 
 ### • input data A- 
----
+
 Cv2 code from kaggle from  dataset page
 The code split the videos with cv2 (Python Video Library) to five different videos to  enlarge the dataset
 After that code  transform  the new videos to matrix ( numpy array) and save them in csv file .
-### • Model-gourmet-percepton-logloss and Model_gpu_multilayer_perceptron- 
 ---
+### • Model-gourmet-percepton-logloss and Model_gpu_multilayer_perceptron- 
+
 
 The both models in this file have Auxiliary Functions and import dataset:
 Auxiliary Functions:
@@ -62,14 +63,14 @@ We use function to save us the system for compare between models or further trai
 ---
 
 ### Import dataset:
----
+
 We take the data and split it to tree groups train, test and  validation. 
 Train for train the model, Test to check the model, and Validation is a like new unused before videos.
 
 ---
 
  ### Models:
- ---
+ 
 We used sklearn Percepton as benchmark.
 We have built Logistic Regression in Tensorflow which behavior is close. 
 Now we want to improve the model, for that we build the MLP model. 
