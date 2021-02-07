@@ -1,4 +1,10 @@
+----
 # Detect Violence detection system.
+----
+## _____________ violence_______________________________  not-violence
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/nd3.PNG?raw=true)  ![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/nd44.PNG?raw=true)
+
+
 In this project we present two parts with different models which detect violence.
 The both part can analyze videos and identify whether the video shows violence or not.
 
