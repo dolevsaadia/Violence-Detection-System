@@ -252,7 +252,7 @@ Allows training of a system that has never trained with the same data set.
 * Function retrain_the_model-
 Allows training of a system that has been trained before with the same data set.
 
-![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/Ng.png?raw=true)
+![]https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/auc.JPG?raw=true)
 
 
 ---
@@ -263,6 +263,8 @@ We test the model with 20% of the total videos, that were splited. this videos w
 ---
 
 # 11) Print the model accuracy and loss:
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/1.JPG?raw=true)
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/2.JPG?raw=true)
 
 ---
 # 12) Load the model & retrain the model:
