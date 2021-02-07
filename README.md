@@ -36,7 +36,15 @@ This model made from several layers, to solve complex problems. The diagram belo
 
 #### The diffrence between the two models:
 
-one layer percpecton model (logistic regression) represents the most simple form of neural network, in which there is only one layer of input nodes that send weighted inputs to a subsequent layer of receiving nodes, or in some cases, one receiving node. This single-layer design was part of the foundation for systems which have now become much more complex. A multilayer perceptron (MLP) is a class of feedforward artificial neural network that contains one or more hidden layers (apart from one input and one output layer). While a single layer perceptron can only learn linear functions, a multi layer perceptron can also learn non – linear functions. 
+one layer percpecton model (logistic regression) represents the most simple form of neural network, in which there is only one layer of input nodes that send weighted inputs to a subsequent layer of receiving nodes, or in some cases, one receiving node. This single-layer design was part of the foundation for systems which have now become much more complex. 
+
+
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/onelayeracuracy.JPG?raw=true)  ![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/onelayeracuracygraph.JPG?raw=true)
+
+
+A multilayer perceptron (MLP) is a class of feedforward artificial neural network that contains one or more hidden layers (apart from one input and one output layer). While a single layer perceptron can only learn linear functions, a multi layer perceptron can also learn non – linear functions. 
+
+![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/myultylayeracuracy.JPG?raw=true) ![](https://github.com/dolevsaadia/Violence-Detection-System/blob/main/image/myultylayeracuracygraph.JPG?raw=true)
 
 ---
 
@@ -49,8 +57,9 @@ Now we will explain about the files and what its purpose to do:
 Cv2 code from kaggle from  dataset page
 The code split the videos with cv2 (Python Video Library) to five different videos to  enlarge the dataset
 After that code  transform  the new videos to matrix ( numpy array) and save them in csv file .
+
 ---
-### • Model-gourmet-percepton-logloss and Model_gpu_multilayer_perceptron- 
+### • Model-gpu-percepton-logloss and Model_gpu_multilayer_perceptron- 
 
 
 The both models in this file have Auxiliary Functions and import dataset:
