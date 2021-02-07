@@ -119,7 +119,9 @@ then install:
 # 1) Part One Downloading the data set
 We will use the function download_data to download the datasets. 
 This function will use the maybe_download_and_extract function to Download and extract the data if it doesn't already exist. 
-the url for the dataset was takken from https://www.kaggle.com/mohamedmustafa/real-life-violence-situations-dataset
+the url for the dataset was takken from :
+https://www.kaggle.com/mohamedmustafa/real-life-violence-situations-dataset
+
 we uploaded the dataset to dropbox.
 In addition we will use the auxiliary function _print_download_progress
 to print the amount of download processed.
@@ -196,11 +198,13 @@ When all the videos have been processed through the VGG16 model and the resultin
 ---
 
 # *6) Split the dataset into training set and test set:
-     In this point We are going to split the dataset into training set and testing. The training      set is used to train the model and the test is used to check the model accuracy.
-## * make the training set :
+     
+ In this point We are going to split the dataset into training set and testing. The training      set is used to train the model and the test is used to check the model accuracy.
+
+* make the training set :
 In this point we will process all the video frames for training through VGG16 and save the transfer-values.
 
-## * make the testing set:
+* make the testing set:
 Then we will process 20% the video frames for testing through VGG16 and save the transfer-values.
 
 ---
@@ -227,7 +231,6 @@ The first input dimension of LSTM neurons is the temporal dimension, in our case
 
 * Function train_the_model-
 Allows training of a system that has never trained with the same data set.
-
 
 * Function retrain_the_model-
 Allows training of a system that has been trained before with the same data set.
